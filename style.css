@@ -43,6 +43,11 @@ main {
 	margin-bottom: 20px;
 }
 
+.image-container img {
+	width: 45%
+	height: auto;
+}
+
 footer {
 	background-color: #BD7C2C;
 	color: #BD7C2C;
