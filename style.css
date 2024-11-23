@@ -8,7 +8,112 @@ header {
 	background-color: #3A758C;
 	color: white;
 	text-align: center;
+	padding: 10px 0;
+}
+
+header nav {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: right;
+	margin: 0;
+}
+
+header nav ul {
+	display: flex;
+}
+
+header nav ul li {
+	margin: 0 10px;
+}
+
+header nav ui li a {
+	color: white;
+	text-decoration: none;
+	padding: 10px 20px;
+	display: block;
+}
+
+header nav ul li a:hover {
+	background-color: #555;
+}
+
+header h1 {
+	margin-top: 10px;
+}
+
+main {
 	padding: 20px;
+}
+
+.images {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 20px;
+}
+
+.images img {
+	max-width: 30%;
+	height: auto;
+	border: 1px solid #ccc;
+}
+
+.text h2 {
+	font-size: 1.5em;
+	margin-bottom: 10px;
+}
+
+.text p {
+	font-size: 1em;
+	line-height: 1.6;
+}
+
+.profile {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+/*This makes the border round
+	.profile img {
+	border-radius: 50px;
+}
+*/
+
+.profile h2 {
+	font-size: 1.5em;
+	margin-top: 10px;
+}
+
+.bio p {
+	font-size: 1em;
+	line-height: 1.6;
+	text-align: justify;
+}
+
+.hobbies {
+	display: flex;
+	justify-content: space-between;
+}
+
+.hobby {
+	margin: 10px;
+	padding: 10px;
+	background-color: white;
+	border: 1px solid #ccc;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-align: center;
+	
+}
+
+.hobby img {
+	max-width: 100%;
+	height: auto;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+
+.hobby p {
+	padding:10px;
 }
 
 nav {
@@ -37,21 +142,12 @@ main {
 	padding: 20px;
 }
 
-.image-container {
-	display: flex;
-	justify-content: space-around;
-	margin-bottom: 20px;
-}
-
-.image-container img {
-	width: 45%
-	height: auto;
-}
-
 footer {
 	background-color: #BD7C2C;
-	color: #BD7C2C;
-	text-align:
-	padding:
-	margin: 0;
+	color: #white;
+	padding: 20px 0;
+	justify-content: space-around;
+	position: relative;
+	bottom: 0;
+	width: 100%;
 }
