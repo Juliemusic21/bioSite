@@ -5,6 +5,8 @@ body {
 	font-family: "Open Sans", sans-serif, Arial;
 	margin: 0;
 	padding: 0;
+	background-color: #F2DFBB;
+	color: #011C40;
 }
 
 header {
@@ -27,11 +29,11 @@ header nav ul {
 }
 
 header nav ul li {
-	margin: 0 10px;
+	margin: 0 15px;
 }
 
 header nav ui li a {
-	color: white;
+	color: #3A758C;
 	text-decoration: none;
 	padding: 10px 20px;
 	display: block;
@@ -39,6 +41,7 @@ header nav ui li a {
 
 header nav ul li a:hover {
 	background-color: #BD7C2C;
+	color: #3A758C;
 }
 
 header h1 {
@@ -58,16 +61,20 @@ main {
 .images img {
 	max-width: 30%;
 	height: auto;
+	border-radius: 10px; //round edge
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .text h2 {
 	font-size: 1.5em;
 	margin-bottom: 10px;
+	text-align: center;
 }
 
 .text p {
 	font-size: 1em;
 	line-height: 1.6;
+	margin-bottom: 20px;
 }
 
 .profile {
@@ -84,21 +91,28 @@ main {
 	font-size: 1em;
 	line-height: 1.6;
 	text-align: justify;
+	text-indent: 30px;
 }
 
 .hobbies {
 	display: flex;
 	justify-content: space-between;
+	margin: 20px 0;
+	text-align: center;
+}
+
+.hobbies h2 {
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 .hobby {
 	margin: 10px;
 	padding: 10px;
 	background-color: white;
-	border: 1px solid #d3d3d3;
+	border: 1px solid white;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	text-align: center;
-	
 }
 
 .hobby img {
@@ -143,8 +157,20 @@ footer {
 	background-color: #BD7C2C;
 	color: #white;
 	padding: 20px 0;
-	justify-content: space-around;
 	position: relative;
 	bottom: 0;
 	width: 100%;
 }
+
+footer ul {
+	list-style-type: none;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+}
+
+footer ul li a {
+	color: white;
+	text-decoration: none;
+}
+
