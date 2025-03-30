@@ -1,5 +1,4 @@
-/*Julie Sakai Module 10.2 Assignment
-Assignment: bioSite*/
+/*Julie Sakai - bioSite*/
 
 body {
 	font-family: "Open Sans", sans-serif, Arial;
@@ -64,7 +63,7 @@ main {
 
 .images img {
 	max-width: 30%;
-	height: auto;
+	height: auto%;
 	border-radius: 10px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -122,7 +121,6 @@ main {
 	margin: 10px; 
 	padding: 10px; 
 	background-color: #F2DFBB; 
-	border: 1px solid white; 
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 	overflow: hidden;
 }
@@ -130,10 +128,9 @@ main {
 .hobby img {
 	max-width: 100%;
 	height: auto;
-	border: 1px solid #d3d3d3;
+	border: 1px solid #F2DFBB;
 	border-radius:15px;
 	border-bottom: 1px solid ;
-	padding-bottom: 10px;
 	object-fit: cover;
 }
 
